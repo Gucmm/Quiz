@@ -1,2 +1,3 @@
 # Quiz
-Trabalho de SSC0955-Introducao a Sistemas Computacionais
+Trabalho de SSC0955-Introducao a Sistemas Computacionais.
+
