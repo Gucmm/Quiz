@@ -15248,7 +15248,7 @@ bc7:      string "B) char"
 cc7:      string "C) double"
 dc7:      string "D) float"
 ;B
-perguntac8 :  string "9) Qual alocacao esta certa na linguagemc? Considere que as alternativas estao  dentro da funcao main e as bibliotecas   stdio e stdlib ja tenham sido declara- das. "
+perguntac8 :  string "9) Qual alocacao esta certa na linguagemc? Considere que as alternativas estao  dentro da funcao main e as bibliotecas  stdio e stdlib ja tenham sido declaradas"
 ac8:      string "A) int *i, n; i= (int**) calloc(n, size of(int*);"
 bc8:      string "B) int **i, n; i= (int**) calloc(n, sizeof(int*); "
 cc8:      string "C) int *i, n; i= (int) calloc(n, sizeof (int);"
@@ -15336,7 +15336,7 @@ bh1:      string "B) Faustino dos Santos Lira"
 ch1:      string "C) Claudio Manuel da Costa"
 dh1:      string "D) Antonio Conselheiro"
 ;A
-perguntah2 : string "3)Nome do lider da Guerra dos Farrapos:"
+perguntah2 : string "3) Nome do lider da Guerra dos Farrapos:"
 ah2:      string "A) Bento Goncalves"
 bh2:      string "B) Antonio Conselheiro"
 ch2:      string "C) Leonardo Bezerra"
@@ -15484,7 +15484,7 @@ bn5:      string "B) Russia"
 cn5:      string "C) Irlanda"
 dn5:      string "D) Noruega"
 ;D  
-perguntan6 : string "7) Como ficou conhecido o modelo atomico de Thomson?"
+perguntan6 : string "7) Como ficou conhecido o modelo atomicode Thomson?"
 an6:      string "A) Modelo da Bola de Bilhar"
 bn6:      string "B) Modelo Planetario"
 cn6:      string "C) Modelo da Lamina de Ouro"
@@ -15510,7 +15510,7 @@ dn9:      string "D) 19"
 ;B      
 ;----------------------------------------------------------------------------------------
 ;Nivel dificil
-perguntad0 : string "1) A respeito de uma funcao continua,   julgue se verdadeiras ou falsas as      seguintes afirmacoes:                     I- Uma funcao nao pode ter duas       assintotas horizontais distintas.         II- Se f for diferenciavel em a, entao f eh continua em a.                      III- Se f eh derivavel em a, entao    |f| tambem eh derivavel. Quais          afirmacoes sao verdadeiras?"
+perguntad0 : string "1) A respeito de uma funcao continua,   julgue se verdadeiras ou falsas as      seguintes afirmacoes:                     I- Uma funcao nao pode ter duas        assintotas horizontais distintas.        II- Se f for diferenciavel em a, entao f eh continua em a.                      III- Se f eh derivavel em a, entao     |f| tambem eh derivavel. Quais afirma- coes sao verdadeiras?"
 ad0:      string "A) I"
 bd0:      string "B) II"
 cd0:      string "C) I e II"
@@ -15599,12 +15599,12 @@ ad14:     string "A) Das madeiras"
 bd14:     string "B) Das cordas"
 cd14:     string "C) Da percussao"
 dd14:     string "D) dos metais"
-;     
+;A     
 perguntad15 : string "16) Quem foi Thomas Sankara?"
-ad15:     string "A) Foi um militar pan-africanista nigeriano"
+ad15:     string "A) Foi um militar pan-africanista nige- riano"
 bd15:     string "B) Foi um importante astronomo sueco"
-cd15:     string "C) Foi um  lider politico de Burkina Faso"
-dd15:     string "D) Foi o mais importante presidente da Romenia"
+cd15:     string "C) Foi um  lider politico de Burkina    Faso"
+dd15:     string "D) Foi o mais importante presidente da  Romenia"
 ;C      
 perguntad16 : string "17) Quanto tempo durou a Guerra dos Cem Anos?"
 ad16:     string "A) 100 anos"
@@ -15626,8 +15626,8 @@ dd18:     string "D) Animais exoticos, cacau e mandioca"
 ;A        
 perguntad19 : string "20) As chamadas revolucoes inglesas,    transcorridas entre 1640 e 1688, tiveramcomo resultados imediatos:"
 ad19:     string "A) O fim do anglicanismo e o inicio das demarcacoes das terras comuns"
-bd19:     string "B) A proclamacao dos Direitos do Homem e do Cidadao e o fim dos monopolios comerciais"
-cd19:     string "C) O fortalecimento do Parlamento e o aumento, no governo, da influencia dos grupos ligados as atividades comerciais"
+bd19:     string "B) A proclamacao dos Direitos do Homem edo Cidadao e o fim dos monopolios comerciais"
+cd19:     string "C) O fortalecimento do Parlamento e o   aumento, no governo, da influencia dos grupos ligados as atividades comerciais"
 dd19:     string "D) O surgimento da monarquia absoluta e as guerras contra a Franca napoleonica"
 ;C    
 perguntad20 : string "21) Sobre o significado de coerencia de memorias cache em sistemas multiproce-  ssados e correto afirmar que:"
@@ -15649,7 +15649,7 @@ cd22:     string "C) Acoplamento"
 dd22:     string "D) Sobrecarga"
 ;B        
 perguntad23 : string "24) Delayed pode ajudar no tratamento deriscos de controle. Para todas as ins-  trucoes de delayed conditional breach,  independentemente de a condicao ser ava-liada como verdadeira ou falsa,"
-ad23:     string "A) A instrucao seguinte  a instrucao conditional branch na memoria e executada"
+ad23:     string "A) A instrucao seguinte  a instrucao    conditional branch na memoria e executa-da"
 bd23:     string "B) A primeira instrucao caminho de quedae executada"
 cd23:     string "C) A primeira instrucao no caminho      percorrido eh executada"
 dd23:     string "D) A Branch leva mais tempo para ser    executado do que qualquer outra instru- cao"
@@ -18028,27 +18028,27 @@ Natureza:
     
     call Imprimestr
       
-    loadn r0, #82 
+    loadn r0, #80 
     loadn r1, #perguntan0 
     loadn r2, #000  
     call Imprimestr
     
-    loadn r0, #562  
+    loadn r0, #560  
     loadn r1, #an0  
     loadn r2, #000
     call Imprimestr
     
-    loadn r0, #722  
+    loadn r0, #720  
     loadn r1, #bn0  
     loadn r2, #000
     call Imprimestr
     
-    loadn r0, #882  
+    loadn r0, #880  
     loadn r1, #cn0  
     loadn r2, #000
     call Imprimestr
     
-    loadn r0, #1042 
+    loadn r0, #1040 
     loadn r1, #dn0  
     loadn r2, #000
     call Imprimestr
@@ -19423,7 +19423,7 @@ Niveldificil:
     call Imprimestr
     
     loadn r0, #560  
-    loadn r1, #ad1  
+    loadn r1, #ad23  
     loadn r2, #000
     call Imprimestr
     
