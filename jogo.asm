@@ -15263,8 +15263,8 @@ dc9:      string "D) Mux"
 ;--------------------------------------------------
 ;Cultura
 perguntau0 :  string "1) Em qual ano o Youtube foi criado? "
-au0:      string "A) 1982"
-bu0:      string "B) 2005"
+au0:      string "A) 2005"
+bu0:      string "B) 1982"
 cu0:      string "C) 2007"
 du0:      string "D) 2010"
 ;A
@@ -15739,6 +15739,21 @@ main:
 ;Fim da main
 
 ; impressao de telas:
+
+;funções responsáveis por imprimir desenho na tela
+;empurra os valores dos registradores R0, R1, R2 e R3 para a pilha
+;carrega valores imediatos nos registradores
+;dentro do loop, a soma dos registradores R0 e R1 é armazenada em R3
+;em seguida, o valor de memória apontado por R3 é carregado em R3
+;o caractere contido em R3 é então impresso na tela
+;R1 é incrementado e, em seguida, comparado com o valor em R2
+;se R1 não for igual a R2, o loop continua para a próxima iteração
+;restaurar os valores dos registradores R3, R2, R1 e R0 a partir da pilha
+;retorna da função
+;Em resumo, a função "printxxxxxScreen" itera por um loop e imprime um desenho na tela,
+;com base nos valores de memória contidos em uma área chamada "xxxxx".
+;Os detalhes específicos do desenho e da área de memória "xxxxx" 
+;estão presentes no início desse código em assembly.
 
 printcompuzScreen:
   push R0
